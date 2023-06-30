@@ -1,62 +1,60 @@
 .masterContainer {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
 }
 
 .headerContainer {
-    display: flex;
-    background-color: blue;
-    height: 100px;
-    flex-grow: 0;
+  display: flex;
+  background-color: blue;
+  height: 100px;
+  flex-grow: 0;
 }
 
 .wowLogo {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .headerLogo {
-    margin-left: 25px;
-    margin-right: auto;
+  margin-left: 25px;
+  margin-right: auto;
 }
 
 .bodyContainer {
-    background-color: palegreen;
-    display: flex;
-    flex-grow: 1;
-    overflow: hidden;
+  background-color: palegreen;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
 }
 
 .leftNav {
-    background-color: blueviolet;
-    flex-grow: 1;
+  background-color: blueviolet;
+  flex-grow: 1;
 }
 
 .centerBody {
-    background-color: bisque;
-    flex-grow: 5;
+  background-color: bisque;
+  flex-grow: 5;
 }
 .scrollable-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-basis: 1;
-    max-height: max-content;
-    overflow: auto; /* Enable scrolling */
-    border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 1;
+  max-height: max-content;
+  overflow: auto; /* Enable scrolling */
+  border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
 }
 
 .scrollImage {
-    width:200px;
-    height: 200px;
-    margin-bottom: 25px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
 }
 
-
 .footerContainer {
-    background-color: aquamarine;
-    flex-grow: 1;
-    height: 100px;
+  background-color: aquamarine;
+  flex-grow: 1;
+  height: 100px;
 }
