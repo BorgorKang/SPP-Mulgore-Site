@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPP Mulgore</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@6.2.5/dist/simplebar.css"
+    />
+    <script src="https://unpkg.com/simplebar@6.2.5/dist/simplebar.min.js"></script>
   </head>
   <body>
     <div class="masterContainer">
@@ -19,7 +24,20 @@
       <div class="bodyContainer">
         <div class="leftNav"></div>
         <div class="centerBody"></div>
-        <div class="scrollable-box">
+        <div class="scrollable-box" id="myScrollableBox" data-simplebar>
+          <img
+            class="scrollImage"
+            src="Resources/Images/Vimages/BNZnzZyPj626iNqTGzTV38.jpg"
+          />
+          <img
+            class="scrollImage"
+            src="Resources/Images/Vimages/c6ZYPYo7JP3sYwUw9ubCNi.jpg"
+          />
+          <img
+            class="scrollImage"
+            src="Resources/Images/Vimages/mOjPHe2.0.jpeg"
+          />
+          <img class="scrollImage" src="Resources/Images/Vimages/images.jpeg" />
           <img
             class="scrollImage"
             src="Resources/Images/Vimages/BNZnzZyPj626iNqTGzTV38.jpg"
@@ -37,5 +55,6 @@
       </div>
       <div class="footerContainer"></div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
