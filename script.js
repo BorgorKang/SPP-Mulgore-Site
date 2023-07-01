@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const scrollableElement = document.getElementById("myScrollableBox");
   // Create a new SimpleBar instance
   new SimpleBar(scrollableElement);
+  // Get the second scrollable element by its id
+const secondScrollableElement = document.getElementById("mySecondScrollableBox");
+// Create a new SimpleBar instance
+new SimpleBar(secondScrollableElement);
+
 });
 
 var slideIndex = 0;
