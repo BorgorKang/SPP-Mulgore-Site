@@ -36,7 +36,32 @@
 
 .leftNav {
   background-color: blueviolet;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.leftNavTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+
+
+.leftNavBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   flex-grow: 1;
+  border: 10px solid red;
+}
+
+#wowHead {
+  background-image: url(Resources/Images/wowhead.png);
+  height: 100px;
+  width: 100px;
 }
 
 .centerBody {
