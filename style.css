@@ -1,3 +1,15 @@
+
+@font-face {
+  font-family: bertholdBaskerville;
+  src: url(Resources/Fonts/BaskervilleBE-Regular.otf);
+}
+
+@font-face {
+  font-family: lifeCraft;
+  src: url(Resources/Fonts/LifeCraft_Font.ttf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -20,8 +32,10 @@
 
 .header-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  font-family: lifeCraft;
+  font-size: 70px;
 }
 
 .header-logo {
@@ -45,8 +59,10 @@
 }
 
 .leftNavHeader {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
+  font-family: lifeCraft;
+  font-size: 50px;
 }
 
 .imageButton {
