@@ -8,7 +8,6 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-
 }
 
 .headerContainer {
@@ -41,14 +40,12 @@
   flex-direction: column;
 }
 
-
 .leftNavTop {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 2;
 }
-
 
 .leftNavBottom {
   display: flex;
@@ -111,6 +108,62 @@
   margin: 5px;
 }
 
+.carousel {
+  background-color: plum;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.slides {
+  display: flex;
+  height: max-content;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.carousel .simplebar-track.simplebar-vertical {
+  width: 10px;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.carousel .simplebar-scrollbar.simplebar-visible:before {
+  border-radius: 5px;
+  left: 0;
+}
+
+.carousel .simplebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
 
 .footerContainer {
   background-color: aquamarine;

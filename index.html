@@ -29,13 +29,40 @@
             <li>Link to some content</li>
             <li>Link to some content</li>
             <li>Link to some content</li>
+          </div>
+          <div class="leftNavBottom">
+            <img
+              class="imageButton"
+              id="wowhead"
+              src="Resources/Images/wowhead.png"
+            />
+            <img
+              class="imageButton"
+              id="classicDB"
+              src="Resources/Images/classicdb.png"
+            />
+          </div>
+        </div>
+        <div class="centerBody">
+          <div class="carousel" id="myCarousel">
+            <div class="slides">
+              <img
+                src="Resources/Images/placeholder.jpg"
+                alt="Image 1"
+              />
+              <img
+              src="Resources/Images/placeholder.jpg"
+                alt="Image 2"
+              />
+              <img
+              src="Resources/Images/placeholder.jpg"
+                alt="Image 3"
+              />
             </div>
-            <div class="leftNavBottom">
-              <img class="imageButton" id="wowhead" src="Resources/Images/wowhead.png">
-              <img class="imageButton" id="classicDB" src="Resources/Images/classicdb.png">
-            </div>
-      </div>
-        <div class="centerBody"></div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          </div>
+        </div>
         <div class="scrollable-box" id="myScrollableBox" data-simplebar>
           <img
             class="scrollImage"
