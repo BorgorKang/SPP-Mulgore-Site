@@ -35,25 +35,23 @@
   flex-direction: column;
 }
 
-.leftNavTop {
+.leftNavBox {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 2;
-}
-
-.leftNavBottom {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   flex-grow: 1;
   border: 10px solid red;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#wowHead {
-  background-image: url(Resources/Images/wowhead.png);
-  height: 100px;
-  width: 100px;
+.leftNavHeader {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imageButton {
+  height: 150px;
+  width: 200px;
 }
 
 .centerBody {
