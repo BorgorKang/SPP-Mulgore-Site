@@ -10,21 +10,6 @@
   width: 100%;
 }
 
-.headerContainer {
-  display: flex;
-  background-color: blue;
-  height: 100px;
-  flex-grow: 0;
-}
-
-.wowLogo {
-  margin-left: auto;
-}
-
-.headerLogo {
-  margin-left: 25px;
-  margin-right: auto;
-}
 
 .bodyContainer {
   background-color: palegreen;
@@ -33,6 +18,16 @@
   overflow: hidden;
 }
 
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  height: 150px;
+  width: 200px;
+}
 .leftNav {
   background-color: blueviolet;
   width: 15%;
